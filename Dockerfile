@@ -1,3 +1,5 @@
 FROM sharelatex/sharelatex
+RUN tlmgr option repository ctan
 RUN tlmgr update --self
-RUN tlmgr install scheme-medium
+RUN tlmgr update --all
+RUN tlmgr install scheme-full
