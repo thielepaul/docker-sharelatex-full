@@ -1,4 +1,4 @@
-FROM sharelatex/sharelatex
+FROM sharelatex/sharelatex:3
 RUN apt update && \
     apt upgrade -y && \
     apt install -y python-pygments fonts-linuxlibertine
