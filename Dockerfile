@@ -6,3 +6,4 @@ RUN tlmgr option repository https://ftp.tu-chemnitz.de/pub/tug/historic/systems/
     tlmgr update --self && \
     tlmgr update --all && \
     tlmgr install scheme-full
+ENV PATH="${PATH}:/usr/local/texlive/2023/bin/x86_64-linux"
