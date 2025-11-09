@@ -5,4 +5,4 @@ RUN apt update && \
 RUN tlmgr update --self && \
     tlmgr update --all && \
     tlmgr install scheme-full
-ENV PATH="${PATH}:/usr/local/texlive/2024/bin/x86_64-linux"
+ENV PATH="${PATH}:/usr/local/texlive/2025/bin/x86_64-linux"
